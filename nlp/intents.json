@@ -1,0 +1,73 @@
+{
+    "intents": [
+        {
+            "tag": "retrain",
+            "patterns": [
+                "retrain your nlp data",
+                "retrain your natural language data",
+                "relearn your nlp data",
+                "relearn your natural language data",
+                "learn your nlp data",
+                "learn your natural language data",
+                "read your nlp data",
+                "read your natural language data",
+                "update your nlp data",
+                "update your natural language data",
+                "upgrade your natural language data",
+                "upgrade your nlp data",
+                "retrain your training data",
+                "relearn your training data",
+                "learn your training data",
+                "read your training data",
+                "update your training data",
+                "upgrade your training data",
+                "retrain the nlp data",
+                "retrain the natural language data",
+                "relearn the nlp data",
+                "relearn the natural language data",
+                "learn the nlp data",
+                "learn the natural language data",
+                "read the nlp data",
+                "read the natural language data",
+                "update the nlp data",
+                "update the natural language data",
+                "upgrade the natural language data",
+                "upgrade the nlp data",
+                "retrain the training data",
+                "relearn the training data",
+                "learn the training data",
+                "read the training data",
+                "update the training data",
+                "upgrade the training data"
+            ],
+            "responses": [
+                "I am fine"
+            ]
+        },
+        {
+            "tag": "greet",
+            "patterns": [
+                "Hello",
+                "Good morning",
+                "good afternoon, my good man"
+            ],
+            "responses": [
+                "Howdy"
+            ]
+        },
+        {
+            "tag": "local current weather",
+            "patterns": [
+                "What's the weather like?",
+                "What is the weather?"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "remote current weather",
+            "patterns": [
+                "what is the weather like in {{place}}"
+            ]
+        }
+    ]
+}

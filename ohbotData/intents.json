@@ -1,0 +1,79 @@
+{
+    "intents": [
+        {
+            "tag": "retrain",
+            "patterns": [
+                "retrain your nlp data",
+                "retrain your natural language data",
+                "upgrade the training data"
+            ]
+        },
+        {
+            "tag": "greet",
+            "patterns": [
+                "Hello",
+                "Good morning",
+                "good afternoon",
+                "Hi",
+                "Howdy",
+                "Greetings"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "goodbye",
+                "see you",
+                "farewell",
+                "good night"
+            ]
+        },
+        {
+            "tag": "current weather",
+            "patterns": [
+                "What is the weather like",
+                "What is the weather now",
+                "what is the weather"
+            ]
+        },
+        {
+            "tag": "weather future",
+            "patterns": [
+                "what will the weather be like tomorrow",
+                "what will the weather be like in {{number}} days",
+                "what will the weather be like on {{day}}",
+                 "what is tomorrows weather"
+            ]
+        },
+        {
+            "tag": "weather past",
+            "patterns": [
+                "what was the weather like yesterday",
+                "what was the weather like {{number}} days ago",
+                "what was the weather like on {{day}}",
+                "what was yesterdays weather"
+            ]
+        },
+        {
+            "tag": "who",
+            "patterns": [
+                "who is {{subject}}",
+                "who was {{subject}}"
+            ]
+        },
+        {
+            "tag": "what",
+            "patterns": [
+                "what is {{subject}}",
+                "what was {{subject}}"
+            ]
+        },
+        {
+            "tag":"who_are_you",
+            "patterns":["who are you", "what is your name","what are you"]
+        }, {
+            "tag":"how_are_you",
+            "patterns":["how are you", "how do you feel","are you ok", "do you feel fine","do you feel ok", "are you fine","how are you feeling"]
+        }
+    ]
+}
